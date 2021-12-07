@@ -99,6 +99,7 @@ nav{
     margin-bottom: 35px;
     box-shadow: 0px 2px 17px rgba(0, 0, 0, 0.10);
     border-radius: 9px;
+    
 }
 
 .kartu:hover{
@@ -129,6 +130,7 @@ nav{
     text-align: center;
     font-weight: 800;
 }
+
 /*upcoming event */
 .kap{
     font-size: 15px;
@@ -181,11 +183,10 @@ nav{
 
     text-decoration: none;
 }
-
-
-
-
-
+.kontak .tbl:hover{
+    color: black;
+    font-weight: 900;
+}
 
 /*our event */
 .heder{
@@ -217,7 +218,16 @@ nav{
     
 }
 
-
+.closing{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+}
+.about{
+    border: 1px solid black;
+    width: 25%;
+}
 
 @media screen and (max-width: 1000px) {
 
@@ -232,9 +242,13 @@ nav{
         width: 40%;
 
     }
+    .about{
+        width: 50%;
+    }
 
 
 }
+
 
 @media screen and (max-width: 600px) {
     .tengah a:not(:first-child) {display: none;}
@@ -243,7 +257,7 @@ nav{
       display: block;
     }
   
-  .container{
+    .container{
     width: 100%;
 
     }
@@ -253,6 +267,10 @@ nav{
     }
     .kartu{
         width: 80%;
+    }
+    .about{
+        width: 90%;
+        align-self: center;
     }
 }
   
